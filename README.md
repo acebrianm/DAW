@@ -14,7 +14,7 @@ Para correr la aplicacion, al ser web, simplemente se abre con el navegador el i
 
 
 La documentacion del programa:
-	http://voxeljs.com/    						--Pagina principal del programa
+	http://voxeljs.com/    				--Pagina principal del programa
 	https://github.com/maxogden/voxel-engine 	--Pagina para documentacion del engine
-	http://voxelbuilder.com/					--Creador de texturas en forma de voxel
+	http://voxelbuilder.com/			--Creador de texturas en forma de voxel
 	https://github.com/substack/voxel-player	--Pagina para documentacion del jugador voxel
