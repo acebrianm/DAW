@@ -1,11 +1,19 @@
-var create = require('voxel-engine');
+var createGame = require('voxel-engine');
+var texturePath = require('programmerart-textures')('');
 
-var game = create();
+var game = createGame({
+	texturePath: texturePath,
+    materials: [
+        ['blocks/grass_top', 'blocks/dirt', 'blocks/grass_side'],
+        'blocks/stone',
+        'blocks/dirt']
+});
+
 var container  = document.body;
 game.appendTo(container);
 
-var player = require('voxel-player')(game);
+var createPlayer = require('voxel-player')(game);
 
-var dude = player('dude.png');
-dude.posses();
-dude.yaw.position.set(0, 100, 0);
+var player = createPlayer('player.png');
+player.possess();
+player.yaw.position.set(0, 50, 0);
