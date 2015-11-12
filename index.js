@@ -16,4 +16,4 @@ var createPlayer = require('voxel-player')(game);
 
 var player = createPlayer('player.png');
 player.possess();
-player.yaw.position.set(0, 50, 0);
+player.yaw.position.set(0, 100, 0);

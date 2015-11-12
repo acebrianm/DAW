@@ -17,7 +17,7 @@ var createPlayer = require('voxel-player')(game);
 
 var player = createPlayer('player.png');
 player.possess();
-player.yaw.position.set(0, 50, 0);
+player.yaw.position.set(0, 500, 0);
 },{"programmerart-textures":21,"voxel-engine":30,"voxel-player":35}],2:[function(require,module,exports){
 module.exports = AABB
 

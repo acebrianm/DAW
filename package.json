@@ -8,7 +8,11 @@
   },
   "author": "",
   "license": "ISC",
+  "scripts":{
+    "start": "echo \"open localhost:8080/\" && ./node_modules/.bin/browservefy index.js 8080 -- -d"
+  },
   "devDependencies": {
+    "browservefy": "0.0.10",
     "programmerart-textures": "^2.1.0",
     "voxel-engine": "^0.20.2",
     "voxel-player": "^0.1.0"
