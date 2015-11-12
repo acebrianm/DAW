@@ -4,17 +4,17 @@
   "description": "juego para DAW",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "scripts":{
     "start": "echo \"open localhost:8080/\" && ./node_modules/.bin/browservefy index.js 8080 -- -d"
   },
+  "author": "",
+  "license": "BSD",
   "devDependencies": {
     "browservefy": "0.0.10",
-    "programmerart-textures": "^2.1.0",
+    "minecraft-skin": "^0.1.2",
+    "painterly-textures": "0.0.3",
     "voxel-engine": "^0.20.2",
+    "voxel-forest": "0.0.1",
+    "voxel-perlin-terrain": "^1.0.0",
     "voxel-player": "^0.1.0"
   }
 }
